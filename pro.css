@@ -1,0 +1,132 @@
+/* Add your custom CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #data-structure-visualization {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 30px;
+  }
+  
+  #linked-list-visualization,
+  #queue-visualization,
+  #stack-visualization {
+    width: 60%;
+    margin:auto;
+  }
+  
+  #linked-list,
+  #queue,
+  #stack {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #linked-list-controls,
+  #queue-controls,
+  #stack-controls {
+    text-align: center;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4287f5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #1d65d8;
+  }
+  
+  #algorithm-visualization {
+    margin-top: 30px;
+    text-align: center;
+  }
+  /* Add appropriate styles as per your requirements */
+#sidebar {
+    width: 33%;
+    float: left;
+    background:linear-gradient(to left,rgb(199, 199, 199),rgb(73, 73, 73));
+    padding: 20px;
+    margin: 30px 30px;
+  }
+  #content {
+    width: 66%;
+    float: left;
+    padding: 20px;
+  }
+  
+  #navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #navigation li {
+    margin-bottom: 10px;
+  }
+  
+  #navigation a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  #navigation a:hover {
+    color: #f00;
+  }
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li a:hover {
+    color: #f00;
+  } 

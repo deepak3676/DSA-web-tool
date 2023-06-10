@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Data Structures Visualization</title>
+  <link rel="stylesheet" type="text/css" href="pro.css">
+</head>
+<body>
+  <h1>Interactive Data Structures Visualization</h1>
+  <header>
+    <nav>
+      <ul id="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div id="sidebar">
+        <h2>DSA Topics</h2>
+        <ul id="navigation">
+          <li><a href="#arrays">Arrays</a></li>
+          <li><a href="#linked-lists">Linked Lists</a></li>
+          <li><a href="#queues">Queues</a></li>
+          <li><a href="#stacks">Stacks</a></li>
+          <!-- Add more topics as needed -->
+        </ul>
+        </div>
+  </div>
+  
+  <div id="data-structure-visualization">
+    <div id="linked-list-visualization">
+      <h2>Linked List</h2>
+      <div id="linked-list">
+        <ul id="linked-list-nodes">
+          <!-- Placeholder for linked list nodes -->
+        </ul>
+      </div>
+      <div id="linked-list-controls">
+        <input type="text" id="node-value" placeholder="Enter node value">
+        <button id="add-node">Add Node</button>
+        <button id="remove-node" onclick="removeNodeByValue()">Remove Node</button>
+      </div>      
+    </div>
+    
+    <div id="queue-visualization">
+      <h2>Queue</h2>
+      <div id="queue">
+        <ul id="queue-elements">
+          <!-- Placeholder for queue elements -->
+        </ul>
+      </div>
+      <div id="queue-controls">
+        <input type="text" id="enqueue-value" placeholder="Enter element value">
+        <button id="enqueue" onclick="enqueue()">Enqueue</button>
+        <button id="dequeue" onclick="dequeue()">Dequeue</button>
+
+      </div>
+      
+    </div>
+    
+    <div id="stack-visualization">
+      <h2>Stack</h2>
+      <div id="stack">
+        <ul id="stack-elements">
+          <!-- Placeholder for stack elements -->
+        </ul>
+      </div>
+      <div id="stack-controls">
+        <input type="text" id="push-value" placeholder="Enter element value">
+        <button id="push" onclick="push()">Push</button>
+        <button id="pop" onclick="pop()">Pop</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="pro.js"></script>
+</body>
+</html>
